@@ -48,19 +48,19 @@ float: left;
 
 .authors>li{
   float:right;
-  margin-top: -3%;
+  margin-top: -8%;
 
 }
 .image-caption{
   display: inline;
   font-size: 15px;
   text-decoration: none;
-
-
+  padding-left: 15px;
 }
+
 .image-number {
   float: left;
   color: #E8E8E8;
   font-size: 15px;
-  margin-top: 5px;
+  
 }
