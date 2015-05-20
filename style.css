@@ -1,8 +1,3 @@
-.octodex{
-
-
-}
-
 
 li{
   display: inline-block;
@@ -24,24 +19,28 @@ li{
   display: inline-block;
 }
 
+a:link {
+    color: #EDEDE9;
+  }
+
+  a:visited {
+      color: black;
+  }
+
 .octocat a {
   text-decoration: none;
+  font-weight: bold;
 }
 
 .authors>li>a>img{
 
-  width: 30%;
+  width: 27%;
 
-}
-
-.image-number {
-  float: left;
-  color: #E8E8E8;
 }
 
 .image-footer{
 display: inline;
-font-size: 14%;
+font-size: 20%;
 border-bottom: 1px solid #E8E8E8;
 float: left;
 
@@ -49,9 +48,19 @@ float: left;
 
 .authors>li{
   float:right;
-  margin-top: -5%;
+  margin-top: -3%;
 
 }
 .image-caption{
   display: inline;
+  font-size: 15px;
+  text-decoration: none;
+
+
+}
+.image-number {
+  float: left;
+  color: #E8E8E8;
+  font-size: 15px;
+  margin-top: 5px;
 }
